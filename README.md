@@ -4,14 +4,15 @@
 A [Yeoman](http://yeoman.io/) generator for
 [Flight CJS](http://flightjs.github.io/), a CJS fork of Twitter's client-side JavaScript
 framework. It was inspired by the original Flight Generator [Flight](https://github.com/flightjs/generator-flight/)
+I borrowed heavily from [Inuit Generator](https://github.com/tgdev/generator-inuit) Thanks!
 
 It creates a standalone application running 
 * `browserify (Module system)` 
 * `flight-cjs (Component library)`
-* `bootstrap-sass (UI library)`
+* `inuit (UI library)`
 * `jasmine, jasmine-jquery and jasmine-flight-cjs (Test libraries)`
 * `karma with karma-browserify (Test runner)`
-* `grunt (Task runner)`
+* `gulp (Task runner)`
 * `browser-sync (Live reloader)`
 
 
@@ -125,8 +126,6 @@ Node-based toolchain for your development workflow.
 **via Bower**
 
 * [Modernizr](http://modernizr.com/)
-* (optional) [DDBootstrap](https://github.com/DeloitteDigitalUK/DDBootstrap)
-* (optional) [BootstrapSass](https://github.com/twbs/bootstrap-sass)
 
 **via npm**
 
@@ -134,7 +133,7 @@ Node-based toolchain for your development workflow.
 * Flight CJS generator (installed as a local dependency)
 * [Jasmine jQuery](https://github.com/velesin/jasmine-jquery) extensions
 * [Jasmine Flight CJS](https://github.com/mo-lon/jasmine-flight) extensions
-* [Grunt](http://gruntjs.com/) task runner
+* [gulp](http://gulpjs.com/) task runner
 * [Karma](http://karma-runner.github.io/) unit test runner
 * [Karma Browserify](https://github.com/Nikku/karma-browserify) karma extension
 * [Node-Static](https://github.com/cloudhead/node-static/) file server
